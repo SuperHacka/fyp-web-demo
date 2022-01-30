@@ -67,7 +67,7 @@ def main():
             st.sidebar.write("Select how many months forward you want to forecast:")
 
             st.write("This is the page for outputting data")
-            df = pd.read_csv('C:/Users/User/Desktop/Semester_7 2021/fyp/fyp_codes/test_arima/arima_user_04/user_data_4_prophet.csv')
+            df = pd.read_csv('https://raw.githubusercontent.com/SuperHacka/fyp-web-demo/main/user_data_4_prophet.csv')
 
             df.head()
 
